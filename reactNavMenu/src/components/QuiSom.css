@@ -1,0 +1,72 @@
+.quisom-page {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 70px);
+  padding: 60px 20px;
+}
+
+.quisom-page .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.quisom-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+
+.quisom-page h2 {
+  color: #667eea;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.about-section {
+  background: white;
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  line-height: 1.8;
+}
+
+.about-section p {
+  color: #666;
+  font-size: 16px;
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+  color: #666;
+}
+
+.values-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.values-list li:last-child {
+  border-bottom: none;
+}
+
+.values-list strong {
+  color: #667eea;
+}
+
+@media (max-width: 768px) {
+  .quisom-page h1 {
+    font-size: 36px;
+  }
+
+  .about-section {
+    padding: 20px;
+  }
+
+  .quisom-page {
+    padding: 40px 20px;
+  }
+}

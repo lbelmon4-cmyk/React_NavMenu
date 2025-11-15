@@ -1,0 +1,120 @@
+.contacte-page {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: calc(100vh - 70px);
+  padding: 60px 20px;
+}
+
+.contacte-page .container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.contacte-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 50px;
+  font-size: 48px;
+}
+
+.form-container {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 5px;
+  font-size: 16px;
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 150px;
+}
+
+.submit-btn {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.3);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.success-message {
+  text-align: center;
+  padding: 40px;
+  background: #f0f9ff;
+  border: 2px solid #4ade80;
+  border-radius: 10px;
+  color: #166534;
+}
+
+.success-message h2 {
+  color: #16a34a;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.success-message p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .contacte-page h1 {
+    font-size: 36px;
+  }
+
+  .form-container {
+    padding: 25px;
+  }
+
+  .contacte-page {
+    padding: 40px 20px;
+  }
+}
